@@ -26,6 +26,11 @@ p, ul, ol, table, pre, dl {
   font-size: 130%;
 }
 
+.about {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -40,6 +45,10 @@ h2 {
   font-weight: 500;
   margin-top: 35px;
   margin-bottom: 20px;
+  padding:20px;
+  text-align:center;
+  background-color: #ebebeb;
+  border-radius: 50px;
 }
 
 h3, h4, h5, h6 {
@@ -118,6 +127,14 @@ pre {
   font-variant: small-caps;
 }
 
+.talk_year {
+  text-align: center;
+  color:#222;
+  font-weight:500;
+  font-variant: small-caps;
+  font-size: 25px;
+}
+
 table {
   width:100%;
   border-collapse:collapse;
@@ -130,6 +147,10 @@ table td, table td * {
 th, td {
   text-align:justify;
   padding:30px 10px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 dt {
@@ -177,12 +198,6 @@ hr {
     width:auto;
   }
 
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
